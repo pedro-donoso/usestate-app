@@ -1,16 +1,18 @@
 import React from 'react';
-// import CounterApp from './CounterApp'
-// import ConditionalApp from './ConditionalApp';
-// import ErrorApp from './ErrorApp';
 import ProductApp from './ProductApp';
+import CounterApp from './CounterApp'
+import ConditionalApp from './ConditionalApp';
+import ErrorApp from './ErrorApp';
+
 
 function App() {
  return (
     <div>
-    {/* <CounterApp/> */}
-    {/* <ConditionalApp/> */}
-    {/* <ErrorApp/> */}
     <ProductApp />
+    <CounterApp/>
+    <ConditionalApp/>
+    <ErrorApp/>
+    
         </div>
     );
 }

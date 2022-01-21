@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 const initialProduct = {
-  title: "Titulo",
+  title: "Título único",
   description: "Descripción",
 }
 
@@ -17,12 +17,14 @@ const ProductApp=()=>{
 
   return (
     <div>
-    <button onClick={()=>updateProduct("description", "Nuevo desc")}>
-      Update
+    <button onClick={()=>updateProduct("description", "Descripción actualizada")}>
+      Actualizar sólo Descripción
     </button>
       <h1>{product.title}</h1>
       <h1>{product.description}</h1>
-      <div>{JSON.stringify(product)}</div>
+      <h4>Vista previa:</h4>
+      <pre>{JSON.stringify(product, null, 2)}</pre>
+      <hr/>
     </div>
   )
 }

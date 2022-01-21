@@ -10,9 +10,10 @@ const CounterApp = () => {
   return (
     <div>
     <button onClick={incrementCounter}>
-      Increment
+      Incrementar Clicks
     </button>  
     <h1>Clicks:{counter}</h1>  
+    <hr/>
     </div>
   )
 }

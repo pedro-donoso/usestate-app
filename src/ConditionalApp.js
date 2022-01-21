@@ -5,16 +5,18 @@ const ConditionalApp = () => {
   return(
     <div>
     <button onClick={()=>setCondition(!condition)}>
-      Toggle
+      Cambiar True a False
     </button>
 
-      {/* {
+      {
         condition &&
-        <h1>Show message only in true</h1>
+        <h2>Éste mensaje sólo se ve en True</h2>
       
-      } */}
+      } 
 
-      <h1>State value is {condition.toString()}</h1>
+      <h2>El valor del Estado ahora: {condition.toString()}</h2>
+
+      <hr/>
       
     </div>
   )
