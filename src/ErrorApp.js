@@ -6,7 +6,16 @@ const ErrorApp = () => {
 
   return (
     <div>
-      {error}
+    <button onClick={()=>setError("Error al traer con la API")}>
+    Error
+    </button>
+    <button onClick={()=>setError("Credenciales incorrectas")}>
+    Another Error
+    </button>
+    <button onClick={()=>setError("")}>
+    Proceso exitoso
+    </button>
+      {error && <h1>{error}</h1>}
     </div>
   )
 }
