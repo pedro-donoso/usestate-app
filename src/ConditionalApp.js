@@ -3,8 +3,8 @@ import React, {useState} from 'react'
 const ConditionalApp = () => {
   const [condition, setCondition] = useState(true);
   return(
-    <div>
-    <button onClick={()=>setCondition(!condition)}>
+    <div className='mx-3'>
+    <button onClick={()=>setCondition(!condition)} className='btn btn-sm btn-warning mb-3'>
       Cambiar True a False
     </button>
 
