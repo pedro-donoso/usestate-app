@@ -1,5 +1,6 @@
 ## https://cambio-de-estados-react.netlify.app/
 
-![actualiza](https://user-images.githubusercontent.com/68760595/150703460-3ad5eaee-70b5-498e-ae10-9b2cc0b49165.png)
+![finalizado](https://user-images.githubusercontent.com/68760595/150703520-d66a0eac-76af-43ff-b94e-aabb4c38702f.png)
+
 
 
