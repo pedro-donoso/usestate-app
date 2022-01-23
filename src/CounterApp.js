@@ -9,7 +9,7 @@ const CounterApp = () => {
 
   return (
     <div className='mx-3'>
-    <button onClick={incrementCounter} className='btn btn-sm btn-success mb-2'>
+    <button onClick={incrementCounter} className='btn btn-sm btn-info mb-2'>
       Incrementar Clicks
     </button>  
     <h1>Clicks:{counter}</h1>  
