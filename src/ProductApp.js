@@ -16,8 +16,8 @@ const ProductApp=()=>{
   }
 
   return (
-    <div>
-    <button onClick={()=>updateProduct("description", "Descripción actualizada")}>
+    <div className='container mx-2'>
+    <button onClick={()=>updateProduct("description", "Descripción actualizada")} className='btn btn-sm btn-primary my-2'>
       Actualizar sólo Descripción
     </button>
       <h1>{product.title}</h1>
